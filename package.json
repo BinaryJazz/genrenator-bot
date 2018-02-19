@@ -1,0 +1,25 @@
+{
+  "name": "Genrenator",
+  "version": "1.0.0",
+  "description": "twitterbot generating music genres",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Allison Tarr",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-persist": "^2.1.0",
+    "tracery-grammar": "^2.7.3",
+    "twit": "^2.2.9",
+    "axios": "^0.17.1"
+  },
+  "engines": {
+    "node": "6.9.x"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/BinaryJazz/genrenator"
+  }
+}
